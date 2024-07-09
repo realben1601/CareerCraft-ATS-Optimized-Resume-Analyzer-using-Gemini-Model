@@ -8,8 +8,6 @@ from PIL import Image
 
 load_dotenv()
 
-#streamlit run c:/Users/ruebe/OneDrive/Desktop/appv1.py
-
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 model = genai.GenerativeModel('gemini-pro')
@@ -84,7 +82,7 @@ with col4:
     st.write('Efficient Career Navigation')
 
 with col3:                      
-    img1 = Image.open("images/icon1.png")
+    img1 = Image.open("ResumeATSApp/images/icon1.png")
     st.image(img1, use_column_width=True)
 
 avs.add_vertical_space(10)
@@ -104,7 +102,7 @@ with col5:
             st.subheader(response)
 
 with col6:                      
-    img2 = Image.open("images/icon1.png")
+    img2 = Image.open("ResumeATSApp/images/icon1.png")
     st.image(img2, use_column_width=True)
 
 avs.add_vertical_space(10)
@@ -126,5 +124,5 @@ with col8:
                 tailored insights and guidance to enhance their resumes and advance their careers.""")
 
 with col7:                        
-    img3 = Image.open("images/icon1.png")
+    img3 = Image.open("ResumeATSApp/images/icon1.png")
     st.image(img3, use_column_width=True)
