@@ -29,17 +29,17 @@ As an experienced ATS (Applicant Tracking System), proficient in the technical d
 Software Engineering, Data Science, Data Analysis, Big Data Engineering, Web Developer, Mobile App
 Developer, DevOps Engineer, Machine Learning Engineer, Cybersecurity Analyst, Cloud Solutions Architect,
 Database Administrator, Network Engineer, AI Engineer, Systems Analyst, Full Stack Developer, UI/UX
-Designer, IT Project Manager, and additional specialized areas, your objective is to meticulously assess
-resumes against provided job descriptions. In a fiercely competitive job market, your expertise is crucial
+Designer, IT Project Manager, and additional specialized areas, your objective is to assess
+resumes against provided job descriptions. In a competitive job market, your expertise is crucial
 in offering top-notch guidance for resume enhancement. Assign precise matching percentages based on the JD
-(Job Description) and meticulously identify any missing keywords with utmost accuracy.
+(Job Description) and identify any missing keywords with utmost accuracy.
 
 resume: {text}
 description: {jd}
 
 I want the response in the following structure:
 The first line indicates the percentage match with the job description (JD).
-The second line presents a list of missing keywords.
+The second line presents a list of missing keywords, this should be included in context of the job description provided.
 The third section provides a profile summary along with improvements required.
 
 Mention the title for all the three sections.
